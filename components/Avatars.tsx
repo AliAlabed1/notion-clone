@@ -6,6 +6,7 @@ const Avatars = () => {
     const others = useOthers();
     const self =useSelf();
     const all = [self,...others]
+
   return (
     <div className='flex gap-2 items-centetr  '>
         <p className='font-light text-sm self-center'>Users currently editing this page</p>

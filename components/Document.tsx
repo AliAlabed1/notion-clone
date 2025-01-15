@@ -13,8 +13,7 @@ import InviteUsers from "./InviteUsers"
 import ManageUsers from "./ManageUsers"
 import Avatars from "./Avatars"
 import { CircleFadingArrowUp } from "lucide-react"
-import { useUser } from "@clerk/nextjs"
-import { useRouter } from "next/navigation"
+
 
 const Document = ({id}:{id:string}) => {
 
